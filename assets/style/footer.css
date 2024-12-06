@@ -1,0 +1,120 @@
+.footer .footer-bg{
+    background-color: #C7EBEB;
+    padding: 30px;
+}
+.footer .footer-logo{
+    width: 40%;
+}
+.footer .fafa-div{
+    background-color: #000;
+    border-radius:5px;
+    width: 25px;
+    height: 25px;
+    text-align: center;    
+    margin-right: 15px;
+    padding: 0px 20px 0px 6px;
+}
+.footer .foot-fafa{
+    color: #fff;
+   font-size: 15px;
+}
+.footer .foot-menu-text{
+    font-size: 14px;
+    color: #323232;
+    text-decoration: none;
+}
+.footer .foot-title{
+    color: #000000;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Times New Roman', 'sans-serif';
+}
+.footer .social-icon-img{
+    width: 34px;
+    margin-right: 12px;
+}
+.footer .border-foot {
+    border-bottom: 1px solid #000;
+    width: 85%;
+    margin: auto;
+    padding-top: 10px;
+}
+.copyright-p {
+    font-size: 14px;
+    color: #323232;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+.copyright-span , .copyright-span:hover{
+    font-weight: 600;
+    color: #323232;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+@media (max-width:319px){
+    .footer .footer-logo {
+        width: 20%;
+    }
+    .footer .foot-title {
+        font-size: 15px;
+    }
+    .copyright-p {
+        font-size: 10px;
+    }
+    .footer .foot-menu-text {
+        font-size: 11px;
+    }
+}
+
+@media (min-width:320px) and (max-width:484px){
+    .footer .footer-logo {
+        width: 20%;
+    }
+    .footer .foot-title {
+        font-size: 20px;
+    }
+    .footer .foot-menu-text {
+        font-size: 13px;
+    }
+    .copyright-p {
+        font-size: 10px;
+    }
+}
+@media (min-width:485px) and (max-width:574px){
+    .footer .footer-logo {
+        width: 20%;
+    }
+    .footer .foot-title {
+        font-size: 18px;
+    }
+    .copyright-p {
+        font-size: 12px;
+    }
+}
+@media (min-width:575px) and (max-width:767px){
+    .footer .footer-logo {
+        width: 20%;
+    }
+    .footer .foot-title {
+        font-size: 20px;
+    }
+}
+@media (min-width:768px) and (max-width:991px){
+    .footer .foot-title {
+        font-size: 20px;
+    }
+    .footer .foot-menu-text {
+        font-size: 13px;
+    }
+}
+@media (min-width:992px) and (max-width:1023px){
+
+}
+@media (min-width:1024px) and (max-width:1199px){
+
+}
+@media (min-width:1200px) and (max-width:1399px){
+
+}

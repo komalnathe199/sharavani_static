@@ -1,0 +1,267 @@
+.header{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+.header .navbar .logoset{
+    width: 275px;
+}
+.header .navbar .navbar-toggler:focus {
+    box-shadow: none;
+}
+.header .navbarset{
+padding: 1% 8% 0% 8%;
+background: #fff;
+}
+.header .navbar .menu{
+    font-size: 20px;
+    color: #323232;
+}
+.header .navbar .active-menu{
+    font-size: 20px;
+    color: #323232;
+    font-weight: 700;
+    border-bottom: 6px solid #00A4A4;
+    padding-bottom: 20px;
+}
+.header .navbar .nav-item{
+    margin: 21px 28px 0px 28px;
+}
+.header .navbar .search-bar-set{
+    background: #fff;
+    border: 0.5px solid #9b9b9b;
+    border-radius: 25px;
+    font-size: 14px;
+    color: #c6c6c6;
+    padding: 12px 20px 12px 20px;
+    width: 150%;
+}
+.header .navbar .fafa-postion-set{
+    position: relative;
+    left: 70px;
+    top: 13px;
+}
+.header .navbar .fafa-postion-set .fa-search{
+    color: #9E9E9E;
+    font-size: 18px;
+}
+.header-bootom-stripped .h6set {
+    color: #FFFFFF;
+    background-color: #000000;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 7px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.header-bootom-stripped .h6span{
+    color: #00A4A4;
+}
+
+@media (min-width:275px) and (max-width:319px){
+    .header .navbar .logoset {
+        width: 150px;
+    }
+    .header .navbarset {
+        padding: 1% 0% 0% 2%;
+    }
+    .header .navbar .active-menu {
+        font-size: 15px;
+        width: fit-content;
+    }
+    .header .navbar .menu {
+        font-size: 15px;
+        width: fit-content;
+    }
+    .header .navbar .search-bar-set {
+        width: 115%;
+    }
+    .header .navbar .fafa-postion-set {
+        left: 0px;
+    }
+    .header .navbar .nav-item {
+        margin: 15px 0px 0px 5px;
+    }
+    .header-bootom-stripped .h6set {
+        font-size: 10px;
+    }
+    .header-bootom-stripped .h6set {
+        font-size: 12px;
+    }
+}
+
+@media (min-width:320px) and (max-width:484px){
+    .header .navbarset {
+        padding: 1% 0% 0% 2%;
+    }
+    .header .navbar .logoset {
+        width: 200px;
+    }
+    .header .navbar .active-menu {
+        font-size: 15px;
+        width: fit-content;
+    }
+    .header .navbar .menu {
+        font-size: 15px;
+        width: fit-content;
+    }
+    .header .navbar .search-bar-set {
+        width: 115%;
+    }
+    .header .navbar .fafa-postion-set {
+        left: 0px;
+    }
+    .header-bootom-stripped .h6set {
+        font-size: 12px;
+    }
+}
+@media (min-width:485px) and (max-width:574px){
+    .header .navbarset {
+        padding: 1% 0% 0% 2%;
+    }
+    .header .navbar .logoset {
+        width: 200px;
+    }
+    .header .navbar .active-menu {
+        font-size: 17px;
+        width: fit-content;
+    }
+    .header .navbar .menu {
+        font-size: 17px;
+        width: fit-content;
+    }
+    .header-bootom-stripped .h6set {
+        font-size: 14px;
+    }
+}
+@media (min-width:575px) and (max-width:767px){
+    .header .navbarset {
+        padding: 1% 0% 0% 2%;
+    }
+    .header .navbar .logoset {
+        width: 200px;
+    }
+    .header .navbar .active-menu {
+        font-size: 17px;
+        width: fit-content;
+    }
+    .header .navbar .menu {
+        font-size: 17px;
+        width: fit-content;
+    }
+}
+@media (min-width:768px) and (max-width:991px){
+    .header .navbarset {
+        padding: 1% 0% 0% 2%;
+    }
+    .header .navbar .logoset {
+        width: 200px;
+    }
+    .header .navbar .active-menu {
+        font-size: 17px;
+        width: fit-content;
+    }
+    .header .navbar .menu {
+        font-size: 17px;
+        width: fit-content;
+    }
+}
+@media (min-width:992px) and (max-width:1023px){
+    .header .navbar .logoset {
+        width: 170px;
+    }
+    .header .navbar .nav-item {
+        margin: 12px 10px 0px 10px;
+    }
+    .header .navbar .active-menu {
+        padding-bottom: 27px;
+    }
+    .header .navbar .active-menu {
+        font-size: 15px;
+        margin-top: 7px;
+    }
+    .header .navbar .menu {
+        font-size: 15px;
+        margin-top: 7px;
+    }
+    .header .navbarset {
+        padding: 1% 2% 0% 2%;
+    }
+    .header .navbar .search-bar-set {
+        width: 120%;
+    }
+    .header .navbar .fafa-postion-set {
+        left: 0px;
+    }
+}
+@media (min-width:1024px) and (max-width:1199px){
+    .header .navbar .logoset {
+        width: 170px;
+    }
+    .header .navbar .nav-item {
+        margin: 12px 10px 0px 10px;
+    }
+    .header .navbar .active-menu {
+        padding-bottom: 27px;
+    }
+    .header .navbar .active-menu {
+        font-size: 15px;
+        margin-top: 7px;
+    }
+    .header .navbar .menu {
+        font-size: 15px;
+        margin-top: 7px;
+    }
+    .header .navbarset {
+        padding: 1% 3% 0% 3%;
+    }
+    .header .navbar .search-bar-set {
+        width: 120%;
+    }
+    .header .navbar .fafa-postion-set {
+        left: 0px;
+    }
+}
+@media (min-width:1200px) and (max-width:1399px){
+    .header .navbar .logoset {
+        width: 200px;
+    }
+    .header .navbar .nav-item {
+        margin: 12px 15px 0px 15px;
+    }
+    .header .navbar .active-menu {
+        padding-bottom: 27px;
+    }
+    .header .navbar .active-menu {
+        font-size: 15px;
+        margin-top: 7px;
+    }
+    .header .navbar .menu {
+        font-size: 15px;
+        margin-top: 7px;
+    }
+    .header .navbarset {
+        padding: 1% 5% 0% 5%;
+    }
+    .header .navbar .search-bar-set {
+        width: 125%;
+    }
+    .header .navbar .fafa-postion-set {
+        left: 15px;
+    }
+}
+@media (min-width:1400px) and (max-width:1700px){
+    .header .navbar .logoset {
+        width: 200px;
+    }
+    .header .navbar .nav-item {
+        margin: 15px 20px 0px 20px;
+    }
+    .header .navbar .active-menu {
+        padding-bottom: 27px;
+    }
+    .header .navbarset {
+        padding: 1% 5% 0% 5%;
+    }
+}

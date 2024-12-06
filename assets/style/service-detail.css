@@ -1,0 +1,338 @@
+.service-details{
+    margin: 5% 0%;
+}
+.service-details .service-img-div {
+    height: 100%;
+}
+.service-details .service-img-div .service-img{
+    width: 100%;
+    height: 293px;
+    border-radius: 15px;
+}
+.service-details .service-bio-div{
+    padding-left: 15px;
+    padding-right: 15px;
+    border-right: 1px solid #707070;
+}
+.service-details .service-bio-div .service-name{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 25px;
+    color: #323232;
+}
+.service-details .service-bio-div .service-provider{
+    /* height: 102px; */
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.08);
+    padding: 15px;
+    width: fit-content;
+    margin-top: 40px;
+}
+.service-details .service-bio-div .provider-img{
+    width: 64px;
+    height: 64px;    
+    margin-top: -45px;
+}
+.service-details .service-bio-div .provider-name{
+    font-weight: bold;
+    font-size: 17px;
+    color: #343434;
+    margin-bottom: 0px;
+    margin-top:2px;
+}
+.service-details .service-bio-div .occupation{
+    font-weight: normal;
+    font-size: 12px;
+    color: #343434;
+    margin-bottom: 0px;
+}
+.service-details .profile-div{
+    border-right: 1px solid #707070;
+    padding-right: 10px;   
+}
+.service-details .provider-contact{
+    padding-left: 10px;
+    padding-right: 20px;
+}
+.service-details .provider-contact .call-text{
+    margin-bottom: 0px;
+    font-size: 14px;
+    color: #343434;
+}
+.service-details .provider-contact  .service-provided-p{
+    font-size: 12px;
+    color: #848484;
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+.service-details .provider-contact .total-service{
+    font-size: 14px;
+    color: #343434;
+    margin-bottom: 0px;
+    font-weight: 600;
+}
+.service-details .ratings .fa-star{
+    color: #FFCF10;
+    font-size: 20px;
+}
+.service-details .ratings .rating-number{
+    font-size: 16px;
+    color: #343434;
+    margin-bottom: 0px;
+    font-weight: 600;
+    margin-left: 3px;
+}
+.service-details .bio-title{
+    font-weight: bold;
+    font-size: 18px;
+    color: #000;
+    margin-top: 15px;
+}
+.service-details  .bio-content{
+    font-weight: normal;
+    font-size: 14px;
+    color: #343434;
+    margin-bottom: 0px;
+}
+.service-details .review-div .top-title{
+    font-weight: bold;
+    font-size: 18px;
+    color: #000;
+}
+.service-details .review-div .review-box{
+border-radius: 10px;
+border: 0.5px solid #b7b7b7;
+box-shadow: 0px 3px 28px rgba(0, 0, 0, 0);
+padding: 8PX;
+border-radius: 6px;
+}
+.service-details .review-div .review-box .name{
+    font-weight: bold;
+    font-size: 16px;
+    color: #000;
+    margin-bottom: 0px;
+}
+.service-details .review-div .review-box .review{
+    font-size: 12px;
+    line-height: 17px;
+    color: #343434;    
+    margin-bottom: 0px;
+}
+.service-details .review-div .review-box .rating-fafa{
+    color: #FFCF10;
+    font-size: 18px;
+}
+.service-details .review-div .review-box .rating{
+    font-weight: 600;
+    font-size: 14px;
+    color: #343434;
+    margin-bottom: 0px;  
+    margin-left: 4px;  
+}
+.service-details .review-div{
+    padding-left: 15px;
+}
+/*.service-details .review-height{*/
+/*    overflow-y:scroll;*/
+/*    overflow-x:hidden;*/
+/*    height:25vh;*/
+/*}*/
+
+@media (max-width:319px){
+    .service-details .service-img-div .service-img {
+        height: 150px;
+        width: 75%;
+    }
+    .service-details .service-img-div {
+        text-align: center;
+    }
+    .service-details .service-bio-div {
+        padding-left: 0px;
+        padding-right: 0px;
+        border-right: none;
+    }
+    .service-details .service-bio-div .service-name {
+        font-size: 18px;
+    }
+    .service-details .service-bio-div .provider-img {
+        width: 40px;
+        height: 40px;
+    }
+    .service-details .service-bio-div .provider-name {
+        font-size: 15px;
+    }
+    .service-details .service-bio-div .service-provider {
+        padding: 10px;
+    }
+    .service-details .service-bio-div .occupation {
+        font-size: 10px;
+    }
+    .service-details .provider-contact .call-text {
+        font-size: 9px;
+    }
+    .service-details .provider-contact .service-provided-p {
+        font-size: 10px;
+    }
+    .service-details .provider-contact .total-service {
+        font-size: 12px;
+    }
+    .service-details .ratings .rating-number {
+        font-size: 13px;
+    }
+    .service-details .bio-title {
+        font-size: 15px;
+    }
+    .service-details .bio-content {
+        font-size: 12px;
+    }
+    .service-details .review-div .top-title {
+        font-size: 16px;
+    }
+    .service-details .review-div .review-box .name {
+        font-size: 15px;
+    }
+    .service-details .review-div .review-box .review {
+        font-size: 11px;
+    }
+}
+@media (min-width:320px) and (max-width:484px){
+    .service-details .service-img-div .service-img {
+        height: 150px;
+        width: 75%;
+    }
+    .service-details .service-img-div {
+        text-align: center;
+    }
+    .service-details .service-bio-div {
+        padding-left: 0px;
+        padding-right: 0px;
+        border-right: none;
+    }
+    .service-details .service-bio-div .service-name {
+        font-size: 18px;
+    }
+    .service-details .service-bio-div .provider-img {
+        width: 40px;
+        height: 40px;
+    }
+    .service-details .service-bio-div .provider-name {
+        font-size: 15px;
+    }
+    .service-details .service-bio-div .service-provider {
+        padding: 10px;
+    }
+    .service-details .service-bio-div .occupation {
+        font-size: 10px;
+    }
+    .service-details .provider-contact .call-text {
+        font-size: 12px;
+    }
+    .service-details .provider-contact .service-provided-p {
+        font-size: 10px;
+    }
+    .service-details .provider-contact .total-service {
+        font-size: 12px;
+    }
+    .service-details .ratings .rating-number {
+        font-size: 13px;
+    }
+    .service-details .bio-title {
+        font-size: 15px;
+    }
+    .service-details .bio-content {
+        font-size: 12px;
+    }
+    .service-details .review-div .top-title {
+        font-size: 16px;
+    }
+    .service-details .review-div .review-box .name {
+        font-size: 15px;
+    }
+    .service-details .review-div .review-box .review {
+        font-size: 11px;
+    }
+}
+@media (min-width:485px) and (max-width:574px){
+    .service-details .service-bio-div .service-name {
+        font-size: 20px;
+    }
+    .service-details .review-div .top-title {
+        font-size: 16px;
+    }
+    .service-details .service-img-div .service-img {
+        width: 80%;
+        height: 200px;
+    }
+    .service-details .service-img-div {
+        text-align: center;
+    }
+    .service-details .service-bio-div {
+        padding-left: 0px;
+        padding-right: 0px;
+        border-right: none;
+    }
+}
+@media (min-width:575px) and (max-width:767px){
+    .service-details .service-bio-div {
+        padding-right: 0px;
+        border-right: none;
+    }
+    .service-details .service-bio-div .service-name {
+        font-size: 20px;
+    }
+    .service-details .service-bio-div .provider-name {
+        font-size: 15px;
+    }
+    .service-details .provider-contact .call-text {
+        font-size: 11px;
+    }
+    .service-details .ratings .fa-star {
+        font-size: 18px;
+    }
+    .service-details .ratings .rating-number {
+        font-size: 15px;
+    }
+    .service-details .bio-title {
+        font-size: 16px;
+    }
+    .service-details .bio-content {
+        font-size: 13px;
+    }
+}
+@media (min-width:768px) and (max-width:991px){
+    .service-details .service-bio-div {
+        padding-right: 0px;
+        border-right: none;
+    }
+    .service-details .service-bio-div .service-name {
+        font-size: 20px;
+    }
+    .service-details .service-bio-div .provider-name {
+        font-size: 15px;
+    }
+    .service-details .provider-contact .call-text {
+        font-size: 13px;
+    }
+    .service-details .ratings .fa-star {
+        font-size: 18px;
+    }
+    .service-details .ratings .rating-number {
+        font-size: 15px;
+    }
+    .service-details .bio-title {
+        font-size: 16px;
+    }
+    .service-details .bio-content {
+        font-size: 13px;
+    }
+}
+@media (min-width:992px) and (max-width:1023px){
+
+}
+@media (min-width:1024px) and (max-width:1199px){
+
+}
+@media (min-width:1200px) and (max-width:1399px){
+    
+}

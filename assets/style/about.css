@@ -1,0 +1,645 @@
+/* start about-shravani style  */
+.about-shravani{
+    background-color: #C7EBEB;
+    height: 705px;
+}
+.about-shravani .title-sec{
+text-align: center;
+}
+.about-shravani .title-sec .title{
+    font-weight: bold;
+    font-size: 71px;
+    color: #323232;
+    padding-top: 5%;
+}
+.about-shravani .title-sec .title-content{
+    font-size: 18px;
+    line-height: 25px;
+    color: #323232;
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+.about-shravani .img-top-div {
+    margin-top: 4%;
+}
+.about-shravani .img-top-div  .about-sec-img{
+    width: 100%;
+    height: 441px;
+    border-radius: 10px;
+}
+@media (max-width:319px){
+    .about-shravani .title-sec .title {
+        font-size: 25px;
+    }
+    .about-shravani .title-sec .title-content {
+        font-size: 13px;
+        width: 100%;
+        -webkit-line-clamp: 6;
+    }
+    .about-shravani {
+        height: 100%;
+    }
+    .about-shravani .img-top-div .about-sec-img {
+        width: 100%;
+        height: 320px;
+    }
+}
+
+@media (min-width:320px) and (max-width:484px){
+    .about-shravani .title-sec .title {
+        font-size: 30px;
+    }
+    .about-shravani .title-sec .title-content {
+        font-size: 15px;
+        width: 100%;
+        -webkit-line-clamp: 6;
+    }
+    .about-shravani {
+        height: 100%;
+    }
+}
+@media (min-width:485px) and (max-width:574px){
+    .about-shravani .title-sec .title {
+        font-size: 30px;
+    }
+    .about-shravani .title-sec .title-content {
+        font-size: 15px;
+        width: 100%;
+        -webkit-line-clamp: 6;
+    }
+    .about-shravani {
+        height: 100%;
+    }
+}
+@media (min-width:575px) and (max-width:767px){
+    .about-shravani .title-sec .title {
+        font-size: 35px;
+    }
+    .about-shravani .title-sec .title-content {
+        font-size: 15px;
+        width: 100%;
+        -webkit-line-clamp: 6;
+    }
+    .about-shravani .img-top-div .about-sec-img {
+        height: 200px;
+    }
+    .about-shravani {
+        height: 425px;
+    }
+}
+@media (min-width:768px) and (max-width:991px){
+    .about-shravani .title-sec .title {
+        font-size: 45px;
+    }
+    .about-shravani .title-sec .title-content {
+        font-size: 15px;
+        width: 85%;
+        -webkit-line-clamp: 5;
+    }
+    .about-shravani .img-top-div .about-sec-img {
+        height: 250px;
+    }
+    .about-shravani {
+        height: 470px;
+    }
+}
+@media (min-width:992px) and (max-width:1023px){
+    .about-shravani .title-sec .title {
+        font-size: 50px;
+    }
+    .about-shravani .title-sec .title-content {
+        font-size: 16px;
+        width: 70%;
+        -webkit-line-clamp: 5;
+    }
+    .about-shravani .img-top-div .about-sec-img {
+        height: 350px;
+    }
+    .about-shravani {
+        height: 590px;
+    }
+}
+@media (min-width:1024px) and (max-width:1199px){
+    .about-shravani .title-sec .title {
+        font-size: 50px;
+    }
+    .about-shravani .title-sec .title-content {
+        font-size: 16px;
+        width: 70%;
+        -webkit-line-clamp: 5;
+    }
+    .about-shravani .img-top-div .about-sec-img {
+        height: 350px;
+    }
+    .about-shravani {
+        height: 590px;
+    }
+}
+@media (min-width:1200px) and (max-width:1399px){
+    .about-shravani .title-sec .title {
+        font-size: 60px;
+    }
+    .about-shravani .title-sec .title-content {
+        font-size: 17px;
+    }
+    .about-shravani .img-top-div .about-sec-img {
+        height: 380px;
+    }
+    .about-shravani {
+        height: 625px;
+    }
+}
+
+/* end about-shravani style  */
+
+
+/* start our-team section  */
+    .our-team {
+        margin: 10% 0% 0% 0%;
+    }
+    .our-team .img-main-div {
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    .our-team .img-main-div:hover{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    .our-team .img-main-div .team-img{
+        width: 318px;
+        height: 318px;
+        border-radius: 300px;
+        display: block;
+        opacity: 1;
+        backface-visibility: hidden;
+       
+    }
+    .our-team .img-main-div .overflow-content{
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        text-align: center;
+        transform: translate(-50% , -50%);
+        -ms-transform: translate(-50% , -50%);
+    }
+    .our-team .img-main-div:hover .team-img{
+        /* opacity: 0.3;  */
+    }
+    .our-team .img-main-div:hover .overflow-content {
+        opacity: 1;
+        background: linear-gradient(180deg,rgb(0 0 0 / 65%) 0%,#000000d4 100%);
+        width: 318px;
+        height: 318px;
+        border-radius: 300px;
+        text-align: center;
+        justify-content: center;
+        margin: 1px 0px 0px 0px;
+        padding-top: 110px; 
+        transition: 0.5s ease-in-out;  
+    }
+    .our-team .img-main-div .overflow-content .team-name{
+        color: #fff;
+        font-size: 29px;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    .our-team .img-main-div .overflow-content .bd-bottom{
+        border-bottom: 3px solid #00A4A4;
+        width: 210px;
+        margin: auto;
+    }
+    .our-team .img-main-div .overflow-content .designation{
+        color: #fff;
+        font-size: 18px;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    @media (max-width:319px){
+        .our-team .img-main-div .team-img{
+            width: 100px;
+            height: 100px;           
+        }
+        .our-team .img-main-div:hover .overflow-content {
+            width: 100px;
+            height: 100px;
+            padding-top: 20px;
+        }
+        .our-team .img-main-div .overflow-content .team-name {
+            font-size: 15px;
+        }
+        .our-team .img-main-div .overflow-content .designation {
+            font-size: 11px;
+        }
+        .our-team .img-main-div .overflow-content .bd-bottom {
+            width: 80px;
+        }        
+    }
+    
+    @media (min-width:320px) and (max-width:484px){
+        .our-team .img-main-div .team-img{
+            width: 120px;
+            height: 120px;           
+        }
+        .our-team .img-main-div:hover .overflow-content {
+            width: 120px;
+            height: 120px;
+            padding-top: 30px;
+        }
+        .our-team .img-main-div .overflow-content .team-name {
+            font-size: 15px;
+        }
+        .our-team .img-main-div .overflow-content .designation {
+            font-size: 11px;
+        }
+        .our-team .img-main-div .overflow-content .bd-bottom {
+            width: 80px;
+        }
+    }
+    @media (min-width:485px) and (max-width:574px){
+        .our-team .img-main-div .team-img{
+            width: 200px;
+            height: 200px;           
+        }
+        .our-team .img-main-div:hover .overflow-content {
+            width: 200px;
+            height: 200px;
+            padding-top: 70px;
+        }
+        .our-team .img-main-div .overflow-content .team-name {
+            font-size: 18px;
+        }
+        .our-team .img-main-div .overflow-content .designation {
+            font-size: 13px;
+        }
+        .our-team .img-main-div .overflow-content .bd-bottom {
+            width: 100px;
+        }
+    }
+    @media (min-width:575px) and (max-width:767px){
+            .our-team .img-main-div .team-img{
+            width: 200px;
+            height: 200px;           
+        }
+        .our-team .img-main-div:hover .overflow-content {
+            width: 200px;
+            height: 200px;
+            padding-top: 70px;
+        }
+        .our-team .img-main-div .overflow-content .team-name {
+            font-size: 18px;
+        }
+        .our-team .img-main-div .overflow-content .designation {
+            font-size: 13px;
+        }
+        .our-team .img-main-div .overflow-content .bd-bottom {
+            width: 100px;
+        }
+    }
+    @media (min-width:768px) and (max-width:991px){
+        .our-team .img-main-div .team-img{
+            width: 140px;
+            height: 140px;           
+        }
+        .our-team .img-main-div:hover .overflow-content {
+            width: 140px;
+            height: 140px;
+            padding-top: 45px;
+        }
+        .our-team .img-main-div .overflow-content .team-name {
+            font-size: 18px;
+        }
+        .our-team .img-main-div .overflow-content .designation {
+            font-size: 13px;
+        }
+        .our-team .img-main-div .overflow-content .bd-bottom {
+            width: 100px;
+        }
+    }
+    @media (min-width:992px) and (max-width:1023px){
+        .our-team .img-main-div .team-img{
+            width: 180px;
+            height: 180px;           
+        }
+        .our-team .img-main-div:hover .overflow-content {
+            width: 180px;
+            height: 180px;
+            padding-top: 65px;
+        }
+        .our-team .img-main-div .overflow-content .team-name {
+            font-size: 20px;
+        }
+        .our-team .img-main-div .overflow-content .designation {
+            font-size: 14px;
+        }
+        .our-team .img-main-div .overflow-content .bd-bottom {
+            width: 150px;
+        }
+    }
+    @media (min-width:1024px) and (max-width:1199px){
+        .our-team .img-main-div .team-img{
+            width: 180px;
+            height: 180px;           
+        }
+        .our-team .img-main-div:hover .overflow-content {
+            width: 180px;
+            height: 180px;
+            padding-top: 65px;
+        }
+        .our-team .img-main-div .overflow-content .team-name {
+            font-size: 20px;
+        }
+        .our-team .img-main-div .overflow-content .designation {
+            font-size: 14px;
+        }
+        .our-team .img-main-div .overflow-content .bd-bottom {
+            width: 150px;
+        }
+    }
+    @media (min-width:1200px) and (max-width:1399px){
+        .our-team .img-main-div .team-img{
+            width: 220px;
+            height: 220px;
+           
+        }
+        .our-team .img-main-div:hover .overflow-content {
+            width: 220px;
+            height: 220px;
+            padding-top: 75px;
+        }
+        .our-team .img-main-div .overflow-content .team-name {
+            font-size: 25px;
+        }
+        .our-team .img-main-div .overflow-content .designation {
+            font-size: 15px;
+        }
+        .our-team .img-main-div .overflow-content .bd-bottom {
+            width: 170px;
+        }
+    }
+    @media (min-width:1400px) and (max-width:1599px){
+        .our-team .img-main-div .team-img{
+            width: 250px;
+            height: 250px;
+           
+        }
+        .our-team .img-main-div:hover .overflow-content {
+            width: 250px;
+            height: 250px;
+            padding-top: 75px;
+        }
+    }
+    
+
+
+/* end our-team section  */
+
+
+
+
+/* start our-clients style  */
+.our-clients{
+    margin: 5% 0% 0% 0%;
+    position: relative;
+}
+.our-clients .bg-img-div{
+    width: 100%;
+    background-size: cover;
+    height: 324px;
+    background-image: url('../Images/about-us/ourclientbg.png');
+}
+.our-clients .client-img-div .client-img{
+width: 100%;
+}
+.our-clients .bg-img-div .title-div .title{
+    padding-top: 40px;
+}
+
+@media (max-width:319px){
+    .our-clients .bg-img-div {
+        height: 100%;
+    }
+}
+@media (min-width:320px) and (max-width:484px){
+    .our-clients .bg-img-div {
+        height: 100%;
+    }
+}
+@media (min-width:485px) and (max-width:574px){
+    .our-clients .bg-img-div {
+        height: 100%;
+    }
+}
+@media (min-width:575px) and (max-width:767px){
+    .our-clients .bg-img-div {
+        height: 100%;
+    }
+}
+@media (min-width:768px) and (max-width:991px){
+    .our-clients .bg-img-div {
+        height: 100%;
+    }
+}
+@media (min-width:992px) and (max-width:1023px){
+
+}
+@media (min-width:1024px) and (max-width:1199px){
+
+}
+@media (min-width:1200px) and (max-width:1399px){
+
+}
+
+
+/* end our-clients style  */
+
+
+
+/* start testimonials style  */
+.testimonials{
+    margin: 9% 0%;
+}
+.testimonials .testimonials-bg{
+    background-color: #F9F9F9;
+    padding: 40px;
+    border-radius: 30px;
+}
+.testimonials .testimonials-bg .title-sub-text{
+    font-size: 18px;
+    color: #000000;
+}
+.testimonials .testimonials-bg .icon-img{
+    width: 58px;
+    margin: 0px 5px 0px 5px;
+}
+.testimonials .testimonials-bg .client-img{
+    width: 130px;
+    height: 130px;
+    border-radius: 200px;
+}
+.testimonials .testimonials-bg .client-name{
+    font-size: 23px;
+    font-weight: 700;
+    color: #323232;
+    margin-top: 15px;
+}
+.testimonials .testimonials-bg .client-detail-p{
+    font-size: 14px;
+    color: #323232;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+.testimonials .testimonials-bg .test-top{
+    margin-top: 7%;
+}
+
+
+.testimonials .testimonial-img-class {
+    overflow: hidden;
+    width: 100%;
+    box-sizing: border-box;
+    height: auto;
+}
+
+.testimonials .testimonial-img-class .testimonial-img {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform .4s;
+}
+
+.testimonials .testimonial-img-class:hover .testimonial-img {
+    transform: scale(1.1);
+}
+
+
+
+@media (max-width:319px){
+    .testimonials .testimonials-bg .icon-img {
+        width: 30px;
+    }
+    .testimonials .testimonials-bg .client-img {
+        width: 70px;
+        height: 70px;
+    }
+    .testimonials .testimonials-bg .client-name {
+        font-size: 17px;
+    }
+    .testimonials .testimonials-bg .client-detail-p {
+        font-size: 12px;
+    }
+    .testimonials .testimonials-bg .title-sub-text {
+        font-size: 13px;
+    }  
+}
+
+@media (min-width:320px) and (max-width:484px){
+    .testimonials .testimonials-bg .icon-img {
+        width: 30px;
+    }
+    .testimonials .testimonials-bg .client-img {
+        width: 70px;
+        height: 70px;
+    }
+    .testimonials .testimonials-bg .client-name {
+        font-size: 17px;
+    }
+    .testimonials .testimonials-bg .client-detail-p {
+        font-size: 12px;
+    }
+}
+@media (min-width:485px) and (max-width:574px){
+    .testimonials .testimonials-bg .icon-img {
+        width: 30px;
+    }
+    .testimonials .testimonials-bg .client-img {
+        width: 70px;
+        height: 70px;
+    }
+    .testimonials .testimonials-bg .client-name {
+        font-size: 17px;
+    }
+    .testimonials .testimonials-bg .client-detail-p {
+        font-size: 12px;
+    }
+}
+@media (min-width:575px) and (max-width:767px){
+    .testimonials .testimonials-bg .icon-img {
+        width: 30px;
+    }
+    .testimonials .testimonials-bg .client-img {
+        width: 70px;
+        height: 70px;
+    }
+    .testimonials .testimonials-bg .client-name {
+        font-size: 17px;
+    }
+    .testimonials .testimonials-bg .client-detail-p {
+        font-size: 12px;
+    }
+}
+@media (min-width:768px) and (max-width:991px){
+    .testimonials .testimonials-bg .icon-img {
+        width: 30px;
+    }
+    .testimonials .testimonials-bg .client-img {
+        width: 70px;
+        height: 70px;
+    }
+    .testimonials .testimonials-bg .client-name {
+        font-size: 17px;
+    }
+    .testimonials .testimonials-bg .client-detail-p {
+        font-size: 12px;
+    }
+}
+@media (min-width:992px) and (max-width:1023px){
+    .testimonials .testimonials-bg .icon-img {
+        width: 40px;
+    }
+    .testimonials .testimonials-bg .client-img {
+        width: 100px;
+        height: 100px;
+    }
+    .testimonials .testimonials-bg .client-name {
+        font-size: 21px;
+    }
+    .testimonials .testimonials-bg .client-detail-p {
+        font-size: 13px;
+    }
+}
+@media (min-width:1024px) and (max-width:1199px){
+    .testimonials .testimonials-bg .icon-img {
+        width: 40px;
+    }
+    .testimonials .testimonials-bg .client-img {
+        width: 100px;
+        height: 100px;
+    }
+    .testimonials .testimonials-bg .client-name {
+        font-size: 21px;
+    }
+    .testimonials .testimonials-bg .client-detail-p {
+        font-size: 13px;
+    }
+}
+@media (min-width:1200px) and (max-width:1399px){
+    
+}    
+/* end testimonials style  */
